@@ -2,5 +2,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "MimeType"
+    name: "MimeType",
+    products: [.library(name: "MimeType", targets: ["MimeType"])],
+    targets: [
+        .target(name: "MimeType", dependencies: []),
+    ],
+    swiftLanguageVersions: [5]
 )
