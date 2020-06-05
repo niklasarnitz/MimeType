@@ -7,5 +7,4 @@ let package = Package(
     targets: [
         .target(name: "MimeType", dependencies: []),
     ],
-    swiftLanguageVersions: [5]
 )
