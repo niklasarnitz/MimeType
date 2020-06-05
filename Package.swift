@@ -6,5 +6,5 @@ let package = Package(
     products: [.library(name: "MimeType", targets: ["MimeType"])],
     targets: [
         .target(name: "MimeType", dependencies: []),
-    ],
+    ]
 )
